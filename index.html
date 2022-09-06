@@ -568,6 +568,49 @@
             <use href="./images/sprite/symbol-defs.svg#close"></use>
           </svg>
         </button>
+        <form class="form">
+          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+          <label class="label-form" for="name">Ім'я</label>
+          <input
+            class="input-form"
+            type="text"
+            name="name"
+            id="name"
+            placeholder=""
+          />
+          <label class="label-form" for="tel">Телефон</label>
+          <input
+            class="input-form"
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder=""
+          />
+          <label class="label-form" for="email">Пошта</label>
+          <input
+            class="input-form"
+            type="email"
+            name="email"
+            id="email"
+            placeholder=""
+          />
+          <label class="label-form" for="comment">Коментар</label>
+          <textarea
+            class="input-form comment-form"
+            name="comment"
+            id="comment"
+            rows="10"
+            placeholder="Введіть текст"
+          ></textarea>
+          <div class="coordination">
+            <input class="input-coordination" type="checkbox" name="" id="" />
+            <label for=""
+              >Погоджуюся з розсилкою та приймаю
+              <a href="">Умови договору</a></label
+            >
+          </div>
+          <button class="button-send-hero" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
