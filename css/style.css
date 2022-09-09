@@ -683,10 +683,12 @@ body {
 }
 
 .subscription-btn {
+  display: inline-flex;
   width: 200px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+
   background-color: var(--accent-color-bg);
   color: var(--main-color-darck-fon);
   align-items: center;
@@ -700,6 +702,14 @@ body {
   transition: background-color var(--transition-dur-and-func),
     box-shadow var(--transition-dur-and-func),
     border-radius var(--transition-dur-and-func);
+}
+.subscription-btn::after {
+  content: "";
+
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../images/svg/icon-send.svg);
 }
 /*============ portfolio ============*/
 .list-button {
