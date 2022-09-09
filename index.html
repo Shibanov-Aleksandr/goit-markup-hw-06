@@ -622,16 +622,21 @@
             rows="10"
             placeholder="Введіть текст"
           ></textarea>
+
           <div class="coordination">
-            <input class="input-coordination" type="checkbox" name="" id="" />
-            <label for=""
-              >Погоджуюся з розсилкою та приймаю
-              <a class="form-link" href="">Умови договору</a></label
-            >
+            <input
+              class="input-coordination visually-hidden"
+              type="checkbox"
+              name=""
+              id=""
+            />
             <svg class="checkbox-icon" width="16" height="15">
-              >
               <use href="./images/sprite/symbol-defs.svg#vector"></use>
             </svg>
+            <label class="policy" for=""
+              >Погоджуюся з розсилкою та приймаю
+              <a class="form-link" href="">Умови договору</a>
+            </label>
           </div>
           <button class="button-send-hero" type="submit">Відправити</button>
         </form>
