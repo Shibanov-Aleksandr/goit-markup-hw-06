@@ -60,7 +60,8 @@ input {
   display: block;
 }
 
-/* body */
+/* =========================BODY========================= */
+
 body {
   background-color: var(--main-bg-color);
   color: var(--mail-color-text);
@@ -68,7 +69,8 @@ body {
   font-family: var(--main-font-family);
   letter-spacing: var(--main-ls);
 }
-/* =====header===== */
+/* =========================HEADER========================= */
+
 .main-header {
   display: flex;
   align-items: center;
@@ -174,9 +176,12 @@ body {
 .link-contacts-header:focus {
   color: var(--accent-color);
 }
+/* =========================/HEADER========================= */
 
 /* =========================MAIN========================= */
+
 /* =========================HERO========================= */
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -234,7 +239,7 @@ body {
 .list-button .hero-button .active {
   background-color: var(--accent-color-bg);
 }
-/*========================================================*/
+/*==========================MODAL-WINDOW==============================*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -279,6 +284,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+/* =========================FORM========================= */
 .form-modal-windov {
   padding: 40px;
 }
@@ -384,7 +390,13 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-/* the better we are */
+/* =========================/FORM========================= */
+
+/* =========================/MODAL-WINDOW========================= */
+
+/* =========================/HERO========================= */
+
+/* =========================THE-BETTER-WE-ARE========================= */
 
 .visually-hidden {
   position: absolute;
@@ -438,7 +450,11 @@ body {
   width: 70px;
   height: 70px;
 }
-/* we-do */
+
+/* =========================/THE-BETTER-WE-ARE========================= */
+
+/* =========================WE-DO========================= */
+
 .we-do-list {
   display: flex;
 }
@@ -480,7 +496,10 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/* team */
+/* =========================/WE-DO========================= */
+
+/* =========================/TEAM========================= */
+
 .team {
   background-color: #f5f4fa;
 }
@@ -547,8 +566,10 @@ body {
 .social-list-link:focus .social-list-icon {
   fill: #ffffff;
 }
+/* =========================/TEAM========================= */
 
-/* =====clients===== */
+/* =========================CLIENTS========================= */
+
 .clients-list {
   display: flex;
   justify-content: center;
@@ -584,7 +605,9 @@ body {
 .clients-list-link:focus .clients-list-icon {
   fill: rgba(33, 150, 243, 1);
 }
-/* footer */
+/* =========================/CLIENTS========================= */
+
+/* =========================FOOTER========================= */
 
 .footer-social-list {
   display: flex;
@@ -711,7 +734,11 @@ body {
   margin-left: 10px;
   background-image: url(../images/svg/icon-send.svg);
 }
-/*============ portfolio ============*/
+
+/* =========================/FOOTER========================= */
+
+/* =========================PORTFOLIO========================= */
+
 .list-button {
   display: flex;
   justify-content: center;
@@ -825,3 +852,4 @@ body {
 .portfolio-cards:focus .ovearlay {
   transform: translateY(0);
 }
+/* =========================/PORTFOLIO========================= */
