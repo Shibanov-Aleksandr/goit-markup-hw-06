@@ -311,6 +311,12 @@ body {
 .lable-form {
   margin-bottom: 4px;
 }
+.form-item-wrapper:hover .input-form {
+  outline: none;
+  border-color: #188ce8;
+  fill: #188ce8;
+}
+
 .icon-form-input {
   position: absolute;
   top: 50%;
