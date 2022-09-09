@@ -577,16 +577,41 @@
         </button>
         <form class="form-modal-windov">
           <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+          <label class="lable-form" for="user-name">Ім'я</label>
           <div class="form-item-wrapper">
-            <label class="lable-form" for="user-name">Ім'я</label>
+            <svg class="icon-form-input" width="18" height="18">
+              <use href="./images/sprite/symbol-defs.svg#person"></use>
+            </svg>
             <input
               class="input-form"
               type="text"
               name="user-name"
               id="user-name"
               required
+            />
+          </div>
+          <label class="lable-form" for="user-phone">Телефон</label>
+          <div class="form-item-wrapper">
+            <input
+              class="input-form"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              required
             /><svg class="icon-form-input" width="18" height="18">
-              <use href="./images/sprite/symbol-defs.svg#person"></use>
+              <use href="./images/sprite/symbol-defs.svg#phone1"></use>
+            </svg>
+          </div>
+          <label class="lable-form" for="user-email">Пошта</label>
+          <div class="form-item-wrapper">
+            <input
+              class="input-form"
+              type="email"
+              name="user-email"
+              id="user-email"
+              required
+            /><svg class="icon-form-input" width="18" height="18">
+              <use href="./images/sprite/symbol-defs.svg#email1"></use>
             </svg>
           </div>
           <label class="label-form" for="comment">Коментар</label>
@@ -601,8 +626,12 @@
             <input class="input-coordination" type="checkbox" name="" id="" />
             <label for=""
               >Погоджуюся з розсилкою та приймаю
-              <a href="">Умови договору</a></label
+              <a class="form-link" href="">Умови договору</a></label
             >
+            <svg class="checkbox-icon" width="16" height="15">
+              >
+              <use href="./images/sprite/symbol-defs.svg#vector"></use>
+            </svg>
           </div>
           <button class="button-send-hero" type="submit">Відправити</button>
         </form>
