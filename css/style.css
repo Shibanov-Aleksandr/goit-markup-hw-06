@@ -393,6 +393,7 @@ body {
 }
 .form-link:hover,
 .form-link:focus {
+  outline: none;
   text-decoration: none;
 }
 .btn-send-form {
@@ -425,6 +426,7 @@ body {
 }
 .btn-send-form:hover,
 .btn-send-form:focus {
+  outline: none;
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) 4px;
 }
