@@ -355,7 +355,7 @@ body {
 .input-coordination {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: noneS;
+  appearance: none;
   margin-right: 9px;
 }
 .checkbox-icon {
@@ -366,11 +366,10 @@ body {
   width: 16px;
   height: 15px;
   background-image: url(../images/svg/vector.svg);
-  border: #000000;
   transform: translateY(-50%);
 }
 
-.input-coordination:checked + .checkbox-icon {
+.input-coordination:checked .checkbox-icon {
   background-image: url(../images/svg/icon-check.svg);
 }
 .policy {
