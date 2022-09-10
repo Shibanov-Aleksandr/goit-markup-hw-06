@@ -311,15 +311,20 @@ body {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  font-size: 12px;
+  outline: none;
 }
 .lable-form {
   margin-bottom: 4px;
+  font-size: 12px;
 }
-.form-item-wrapper:hover .input-form {
+.form-item-wrapper:hover .input-form,
+.form-item-wrapper:focus .input-form {
   outline: none;
   border-color: #188ce8;
 }
 
+.input-form:focus:hover + .icon-form-input,
 .input-form:hover + .icon-form-input {
   fill: #188ce8;
 }
@@ -345,6 +350,7 @@ body {
   height: 120px;
   padding: 12px 16px 12px 16px;
   resize: none;
+  font-size: 12px;
 }
 .comment:hover .input-form {
   outline: none;
@@ -369,7 +375,7 @@ body {
   transform: translateY(-50%);
 }
 
-.input-coordination:checked .checkbox-icon {
+.input-coordination:checked + .checkbox-icon {
   background-image: url(../images/svg/icon-check.svg);
 }
 .policy {
@@ -381,7 +387,10 @@ body {
   color: var(--accent-color);
   line-height: 1.71;
 }
-
+.form-link:hover,
+.form-link:focus {
+  text-decoration: none;
+}
 .form-item-wrapper:focus + .input-form {
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -726,7 +735,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  color: var(--mail-color-text);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25;
 }
@@ -748,9 +757,15 @@ body {
   line-height: 30px;
   border-radius: 4px;
   border: var(--accent-color-bg);
+  cursor: pointer;
   transition: background-color var(--transition-dur-and-func),
     box-shadow var(--transition-dur-and-func),
     border-radius var(--transition-dur-and-func);
+}
+.subscription-btn:hover,
+.subscription-btn:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) 4px;
 }
 .subscription-btn::after {
   content: "";
