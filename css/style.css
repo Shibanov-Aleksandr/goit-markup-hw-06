@@ -329,9 +329,6 @@ body {
   left: 12px;
   transform: translateY(-50%);
 }
-.input-coordination {
-  margin-right: 9px;
-}
 
 .coordination {
   position: relative;
@@ -353,17 +350,31 @@ body {
   outline: none;
   border-color: #188ce8;
 }
-
+.checkbox {
+}
+.input-coordination {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: noneS;
+  margin-right: 9px;
+}
 .checkbox-icon {
   position: absolute;
+  display: block;
   top: 50%;
   left: 10px;
+  width: 16px;
+  height: 15px;
+  background-image: url(../images/svg/vector.svg);
+  border: #000000;
   transform: translateY(-50%);
 }
+
 .input-coordination:checked + .checkbox-icon {
   background-image: url(../images/svg/icon-check.svg);
 }
 .policy {
+  display: flex;
   line-height: 1.71;
 }
 .form-link {
