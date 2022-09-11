@@ -314,7 +314,7 @@ body {
   transition: border-color var(--transition-dur-and-func);
 }
 .label-form {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .form-wrapper {
   position: relative;
@@ -361,8 +361,8 @@ body {
   margin-right: 8px;
   width: 16px;
   height: 15px;
-  border: 1px solid black;
-  border-radius: 4px;
+  border: 2px solid #212121;
+  border-radius: 2px;
 }
 .icon-form-checked-on {
   display: none;
@@ -377,7 +377,7 @@ body {
   display: block;
 }
 .input-checkbox:focus + .icon-form-checked {
-  box-shadow: 0 0 0 3px var(--accent-color-bg);
+  border-color: var(--accent-color-bg);
 }
 .input-checkbox {
   position: absolute;
