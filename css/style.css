@@ -335,7 +335,7 @@ body {
   border-color: var(--accent-color);
 }
 .comment {
-  margin-bottom: 20px;
+  display: block;
   padding: 16px 12px 16px 12px;
   width: 100%;
   height: 120px;
@@ -355,7 +355,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 .label-form-coment {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .icon-form-checked {
   margin-right: 8px;
